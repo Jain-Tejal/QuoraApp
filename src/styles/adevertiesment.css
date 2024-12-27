@@ -1,0 +1,53 @@
+@import url('../index.css');
+
+.ad-container {
+    background-color: var(--clr-bg-7);
+    border-radius: 10px;
+    /* width: 20%; */
+    padding-top: 1rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: var(--box-shadow-3);
+    position: sticky;
+    top: 4.2rem;
+}
+
+.adds-box {
+    width: 100%;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.adds-box>img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.adds-box>button {
+    border: none;
+    position: absolute;
+    right: 7%;
+    color: var(--clr-text-9);
+    font-size: 1rem;
+    padding: 1.5px;
+    cursor: pointer;
+}
+
+.adds-box>.info-btn {
+    right: 13.5%;
+}
+
+.ad-footer {
+    font-size: 0.8rem;
+    background-color: var(--clr-bg-5);
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    border-top: solid 1px var(--clr-bdr-4);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

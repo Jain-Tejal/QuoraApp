@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* shadows */
+    --box-shadow-1: inset 0 0 10px 10px transparent;
+    --box-shadow-2: inset 0 0 10px 1px rgba(24, 23, 23, 0.485);
+    --box-shadow-3: 0 0 10px 1px rgba(24, 23, 23, 0.485);
+    /* font family */
+    --font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    /* Colors */
+    --q-colors-text-green: #328f5a;
+    --q-colors-text-tribe_theme_green: #06961c;
+
+    --q-colors-bg-green_light: #0c2417;
+    --q-colors-bg-red_error_light: #2f130a;
+    --q-colors-bg-tribe_theme_pink: #d17078;
+    --q-colors-bg-tribe_theme_yellow: #f6be08;
+    --q-colors-bg-tribe_theme_purple: #b1599e;
+    --q-colors-bg-poe_primary_purple_light: #131249;
+    --q-colors-bg-poe_primary_purple_dark: #470089;
+    --q-colors-border-red_error: #e95111;
+    /* -------------  bg clr  --------------- */
+    --clr-bg-1: #181818;
+    --clr-bg-2: #202020;
+    --clr-bg-3: #262626;
+    --clr-bg-4: #3c3c3c;
+    --clr-bg-4-1: #313030;
+    --clr-bg-5: #414142;
+    --clr-bg-6: #48484a;
+    --clr-bg-7: #393839;
+    --clr-bg-8: #4d4d4f;
+    --clr-bg-9: rgba(0, 0, 0, 0.1);
+    --clr-bg-10: rgba(255, 255, 255, 0.04);
+    --clr-bg-11: #f52936;
+    --clr-bg-12: #eb1111de;
+    --clr-bg-12-1: #f5293727;
+    --clr-bg-13: #0c264c;
+    --clr-bg-14: #282d41;
+    --clr-bg-15: #1a2035;
+    --clr-bg-16: rgba(72, 148, 253, 0.35);
+    --clr-bg-17: rgba(255, 255, 255, 0.06);
+    --clr-bg-18: rgba(32, 32, 32, 0.5);
+    --clr-bg-19: rgba(20, 30, 43, 0.5);
+    --clr-bg-20: rgba(24, 24, 24, 0.6);
+    --clr-bg-21: rgba(38, 38, 38, 0.6);
+    --clr-bg-22: rgba(24, 24, 24, 0.6);
+    --clr-bg-23: rgba(24, 24, 24, 0.95);
+    --clr-bg-24: rgba(24, 24, 24, 0.95);
+    /*--------------  text clr ---------------- */
+    --clr-text-1: #e6e7e8;
+    --clr-text-2: #fff;
+    --clr-text-3: #f1f2f2;
+    --clr-text-4: #cdcdcd;
+    --clr-text-5: #d5d6d6;
+    --clr-text-6: #b1b3b6;
+    --clr-text-7: #6e6f71;
+    --clr-text-8: #2e69ff;
+    --clr-text-9: #4894fd;
+    --clr-text-10: #287dff;
+    --clr-text-11: #2479d6;
+    --clr-text-12: #3b3abe;
+    --clr-text-13: #7674f9;
+
+    /*--------------  border clr ----------- */
+    --clr-bdr-1: #2e69ff;
+    --clr-bdr-2: rgb(60, 59, 59);
+    --clr-bdr-3: rgb(109, 106, 106);
+    --clr-bdr-4: rgba(109, 106, 106, 0.262);
+    --clr-bdr-5: rgba(109, 106, 106, 0.625);
+
+    /* borders */
+    --bdr-1: solid 2px transparent;
+}
+
+
+body {
+    background-color: var(--clr-bg-2);
+    color: var(--clr-text-4);
+    font-family: var(--font-family);
+}

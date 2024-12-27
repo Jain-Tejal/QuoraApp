@@ -1,0 +1,97 @@
+@import url('../index.css');
+
+/* -------------- Main Spaces-container------------ */
+
+.left-compo-spaces {
+    width: 100%;
+    position: sticky;
+    top: 4.2rem;
+}
+
+/* -------------- Spaces-container------------ */
+.createSpaceBtn {
+    margin: 1rem 0 0.5rem 5px;
+    padding: 7px;
+    width: 100%;
+    border: none;
+    color: var(--clr-text-2);
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--clr-bg-3);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: var(--clr-bg-10);
+    }
+
+}
+
+.createSpaceBtn>span {
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: var(--clr-bg-4-1);
+    color: var(--clr-text-6);
+    padding: 2.5px 5px;
+    border-radius: 5px;
+}
+
+/* ---------- Spaces ------------- */
+.spaces-container>ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 7px;
+    font-weight: 450;
+    font-size: 0.91rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--clr-text-5);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: var(--clr-bg-10);
+    }
+}
+
+.spaceImg {
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+
+/* -------------- Query-container------------ */
+
+
+.query-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    border-top: solid 1px var(--clr-bdr-5);
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.query-container>.query-link-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+}
+
+.query-container .query-link {
+    color: var(--clr-text-7);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 3px;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

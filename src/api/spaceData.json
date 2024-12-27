@@ -1,0 +1,48 @@
+[
+   { "id": 1,
+   "name": "space 1",
+   "description": "This is space 1",
+   "imgUrl": "../../public/spaces-img/spaceimg1.jpg"
+   },
+   { "id": 2,
+   "name": "space 2",
+   "description": "This is space 2",
+   "imgUrl": "../../public/spaces-img/spaceimg2.jpg"
+   },
+   { "id": 3,
+   "name": "space 3",
+   "description": "This is space 3",
+   "imgUrl": "../../public/spaces-img/spaceimg3.jpg"
+   },
+   { "id": 4,
+   "name": "space 4",
+   "description": "This is space 4",
+   "imgUrl": "../../public/spaces-img/spaceimg4.jpg"
+   },
+   { "id": 5,
+   "name": "space 5",
+   "description": "This is space 5",
+   "imgUrl": "../../public/spaces-img/spaceimg5.jpg"
+   },
+   { "id": 6,
+   "name": "space 6",
+   "description": "This is space 6",
+   "imgUrl": "../../public/spaces-img/spaceimg6.jpg"
+   },
+   { "id": 7,
+   "name": "space 7",
+   "description": "This is space 7",
+   "imgUrl": "../../public/spaces-img/spaceimg7.jpg"
+   },
+   { "id": 8,
+   "name": "space 8",
+   "description": "This is space 8",
+   "imgUrl": "../../public/spaces-img/spaceimg8.jpg"
+   },
+   { "id": 9,
+   "name": "space 9",
+   "description": "This is space 9",
+   "imgUrl": "../../public/spaces-img/spaceimg9.jpg"
+   }
+
+]

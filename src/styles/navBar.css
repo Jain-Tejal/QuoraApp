@@ -1,0 +1,266 @@
+@import url('../index.css');
+
+:root {
+    --navBarHeight: 3.2rem;
+}
+
+/* ----------------- Nav Bar/ main Container */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-bg-4-1);
+    width: 100%;
+    height: var(--navBarHeight);
+    gap: 1.6rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+/* ----------- Add Qus Card for Add qus btn ---------------------- */
+
+.hidden-qus-card {
+    display: none;
+}
+
+.visible-qus-card {
+    display: flex;
+}
+
+.add-qus-card {
+    background-color: var(--clr-bg-23);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+
+
+/* ----------- Logo ---------------------- */
+.q-logo-container {
+    width: 8rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.q-logo {
+    width: 80%;
+    height: 50%;
+}
+
+/* ----------- Left List icons ---------------------- */
+.nav-list-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* gap: 1.6rem; */
+}
+
+.nav-icon {
+    font-size: 1.8rem;
+    color: var(--clr-text-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon,
+.lang-icon,
+.nav-list-left>li {
+    width: 3rem;
+    height: 2.7rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: var(--clr-bg-6);
+
+    }
+}
+
+.notifications::after,
+.home::after,
+.answer::after,
+.spaces::after,
+.following::after {
+    content: "Home";
+    color: var(--clr-text-6);
+    font-weight: 600;
+    position: absolute;
+    top: 3.5rem;
+    background-color: var(--clr-bg-4-1);
+    padding: 5px 10px;
+    border-radius: 3.5rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    visibility: hidden;
+    transition: all 0.3s step-end;
+}
+
+.home:hover::after,
+.answer:hover::after,
+.spaces:hover::after,
+.notifications:hover::after,
+.following:hover::after {
+    visibility: visible;
+
+}
+
+.notifications::after {
+    content: 'Notification';
+}
+
+.following::after {
+    content: 'Following';
+}
+
+.answer::after {
+    content: 'Answers';
+}
+
+.spaces::after {
+    content: 'Spaces';
+}
+
+/* -------------------- Search box ----------------------- */
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input-box {
+    background-color: var(--clr-bg-2);
+    width: 20rem;
+    padding: 10px 1.8rem;
+    border: solid 1px var(--clr-bdr-2);
+    border-radius: 5px;
+}
+
+.search-input-box::placeholder {
+    color: var(--clr-text-6);
+}
+
+.search-icon {
+    position: absolute;
+    color: var(--clr-text-6);
+    font-size: 1.1rem;
+    top: 17px;
+    left: 8px;
+}
+
+.search-input-box:focus {
+    color: var(--clr-bdr-1);
+    border-color: var(--clr-bdr-1);
+}
+
+.search-input-box:hover {
+    border-color: var(--clr-bdr-1);
+}
+
+/* -------------------- Right List ----------------------- */
+
+.nav-list-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 0.6rem;
+}
+
+
+
+/* ---- Try Quora+ ----- */
+.try-quora-box {
+    background-color: var(--clr-bg-9);
+    width: 6.5rem;
+    padding: 4px 10px;
+    border-radius: 15px;
+    border: solid 1px var(--clr-bdr-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: var(--clr-bg-6);
+    }
+}
+
+.try-quora-link {
+    text-decoration: none;
+    color: var(--clr-text-5);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* ----------------- add question ---------------------- */
+
+.add-arrow-btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 10rem;
+    height: 2rem;
+    background-color: var(--clr-bg-11);
+    border-radius: 20px;
+    border: none;
+    color: var(--clr-text-1);
+    font-weight: 700;
+}
+
+.add-qus-btn {
+    width: 8rem;
+    height: 2rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--clr-bg-11);
+
+
+
+    &:hover {
+        background-color: var(--clr-bg-12);
+    }
+}
+
+.create-post-btn {
+    height: 2rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: var(--clr-bg-11);
+
+
+    &:hover {
+        background-color: var(--clr-bg-12);
+    }
+}
+
+/* ================================================== */
+
+/* .active {
+    color: red;
+} */

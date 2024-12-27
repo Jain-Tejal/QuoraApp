@@ -1,0 +1,20 @@
+@import url('../index.css');
+
+.main-following-page {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.left-section {
+    width: 10%;
+}
+
+.middle-section {
+    width: 40%;
+}
+
+.right-section {
+    width: 20%;
+}
